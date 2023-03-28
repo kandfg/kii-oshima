@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          這個網頁主要是展示南紀大島的日本小鍬養殖
         </p>
         <a
           className="App-link"
