@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/kii-oshima/static/css/main.073c9b0a.css",
-    "main.js": "/kii-oshima/static/js/main.883eb0fd.js",
+    "main.css": "/kii-oshima/static/css/main.e6c13ad2.css",
+    "main.js": "/kii-oshima/static/js/main.55bb5a96.js",
     "static/js/787.7a1887e2.chunk.js": "/kii-oshima/static/js/787.7a1887e2.chunk.js",
-    "static/media/logo.svg": "/kii-oshima/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kii-oshima/index.html",
-    "main.073c9b0a.css.map": "/kii-oshima/static/css/main.073c9b0a.css.map",
-    "main.883eb0fd.js.map": "/kii-oshima/static/js/main.883eb0fd.js.map",
+    "main.e6c13ad2.css.map": "/kii-oshima/static/css/main.e6c13ad2.css.map",
+    "main.55bb5a96.js.map": "/kii-oshima/static/js/main.55bb5a96.js.map",
     "787.7a1887e2.chunk.js.map": "/kii-oshima/static/js/787.7a1887e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.883eb0fd.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.55bb5a96.js"
   ]
 }
