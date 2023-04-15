@@ -22,7 +22,7 @@ function Bar() {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-const logo = <a href="/">
+const logo = <a href="/kii-oshima/">
   <img src={LogoImg} alt="logo" 
     noWrap
     sx={{display: { xs: 'none', md: 'flex' },
