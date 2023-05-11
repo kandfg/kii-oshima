@@ -5,6 +5,8 @@ import Home from './pages/home';
 import Photo from './pages/photo';
 import Review from './pages/review';
 import Bar from './components/Bar';
+import PageNotFound from './pages/pagenotfound';
+
 
 const App = () => (
     <BrowserRouter basename="/kii-oshima">
@@ -13,6 +15,7 @@ const App = () => (
         <Route exact path="/" element={<Home />} />
         <Route path="/review" element={<Review />} />
         <Route path="/photo" element={<Photo />} />
+        <Route path="/*" element={<PageNotFound/>}/>
         </Routes>
     </BrowserRouter>
   );
