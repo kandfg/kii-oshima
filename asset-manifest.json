@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/kii-oshima/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/kii-oshima/static/js/main.0d408e50.chunk.js",
-    "main.js.map": "/kii-oshima/static/js/main.0d408e50.chunk.js.map",
+    "main.js": "/kii-oshima/static/js/main.a64947a8.chunk.js",
+    "main.js.map": "/kii-oshima/static/js/main.a64947a8.chunk.js.map",
     "runtime-main.js": "/kii-oshima/static/js/runtime-main.70ce0e42.js",
     "runtime-main.js.map": "/kii-oshima/static/js/runtime-main.70ce0e42.js.map",
-    "static/js/2.97e1c238.chunk.js": "/kii-oshima/static/js/2.97e1c238.chunk.js",
-    "static/js/2.97e1c238.chunk.js.map": "/kii-oshima/static/js/2.97e1c238.chunk.js.map",
+    "static/js/2.25c9e0ac.chunk.js": "/kii-oshima/static/js/2.25c9e0ac.chunk.js",
+    "static/js/2.25c9e0ac.chunk.js.map": "/kii-oshima/static/js/2.25c9e0ac.chunk.js.map",
     "index.html": "/kii-oshima/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/kii-oshima/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.97e1c238.chunk.js.LICENSE.txt": "/kii-oshima/static/js/2.97e1c238.chunk.js.LICENSE.txt"
+    "static/js/2.25c9e0ac.chunk.js.LICENSE.txt": "/kii-oshima/static/js/2.25c9e0ac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.70ce0e42.js",
-    "static/js/2.97e1c238.chunk.js",
+    "static/js/2.25c9e0ac.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.0d408e50.chunk.js"
+    "static/js/main.a64947a8.chunk.js"
   ]
 }
