@@ -32,7 +32,7 @@ const logo = <NavLink exact to="/">
 </NavLink>;
 
   return (
-    <AppBar position="static" style={{ background: '#7B0000' }}>
+    <AppBar position="static" style={{ background: '#000000' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
         
@@ -82,7 +82,7 @@ const logo = <NavLink exact to="/">
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                <NavLink to={"/"+page.page_en} underline="hover">
+                <NavLink to={"/"+page.page_en}>
                   <Typography textAlign="center" color="common.white">{page.page_ch}</Typography>
                 </NavLink>
               </Button>
