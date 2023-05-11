@@ -10,8 +10,9 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import LogoImg from "./logo.png";
+import { NavLink } from "react-router-dom";
 
-const pages = ['飼育心得', '照片'];
+const pages = [{page_ch:'飼育心得',page_en:'review'},{page_ch: '照片',page_en:'photo'}];
 
 function Bar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -22,13 +23,13 @@ function Bar() {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-const logo = <a href="/kii-oshima/">
+const logo = <NavLink exact to="/">
   <img src={LogoImg} alt="logo" 
     noWrap
     sx={{display: { xs: 'none', md: 'flex' },
   }}>
   </img>
-</a>;
+</NavLink>;
 
   return (
     <AppBar position="static" style={{ background: '#7B0000' }}>
@@ -65,8 +66,10 @@ const logo = <a href="/kii-oshima/">
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                <MenuItem key={page.page_en} onClick={handleCloseNavMenu}>
+                  <NavLink to={"/"+page.page_en} underline="hover">
+                    <Typography textAlign="center" >{page.page_ch}</Typography>
+                  </NavLink>
                 </MenuItem>
               ))}
             </Menu>
@@ -75,11 +78,13 @@ const logo = <a href="/kii-oshima/">
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
-                key={page}
+                key={page.page_en}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                <NavLink to={"/"+page.page_en} underline="hover">
+                  <Typography textAlign="center" color="common.white">{page.page_ch}</Typography>
+                </NavLink>
               </Button>
             ))}
           </Box>
@@ -87,6 +92,7 @@ const logo = <a href="/kii-oshima/">
           
         </Toolbar>
       </Container>
+      
     </AppBar>
   );
 }

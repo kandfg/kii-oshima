@@ -1,5 +1,5 @@
-import Bar from '../../components/Bar';
 const Home= () => {
-    return <div><Bar /></div>
+    return <div>
+    </div>
 }
 export default Home
