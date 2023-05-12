@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kii-oshima/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/kii-oshima/static/js/main.d4edb7c4.chunk.js",
-    "main.js.map": "/kii-oshima/static/js/main.d4edb7c4.chunk.js.map",
+    "main.js": "/kii-oshima/static/js/main.d07cc8f7.chunk.js",
+    "main.js.map": "/kii-oshima/static/js/main.d07cc8f7.chunk.js.map",
     "runtime-main.js": "/kii-oshima/static/js/runtime-main.70ce0e42.js",
     "runtime-main.js.map": "/kii-oshima/static/js/runtime-main.70ce0e42.js.map",
     "static/js/2.8522fdd4.chunk.js": "/kii-oshima/static/js/2.8522fdd4.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.70ce0e42.js",
     "static/js/2.8522fdd4.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.d4edb7c4.chunk.js"
+    "static/js/main.d07cc8f7.chunk.js"
   ]
 }
